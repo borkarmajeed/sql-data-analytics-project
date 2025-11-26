@@ -1,1 +1,8 @@
-
+## Magnitude Analysis
+ - compare the measure values by categories.
+ - It help us understand the importance of different categories.
+i.e. Σ [Measure] By [Dimension]
+Total Sales By Country
+Total Quantity By Category 
+Average Price By Product
+Total Orders By Customer
