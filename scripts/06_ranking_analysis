@@ -1,0 +1,12 @@
+## Ranking Analysis
+
+Rank [Dimension] By Σ[Measure]
+Rank Countries By Total Sales
+Top 5 Products By Quantity 
+Bottom 3 Customers By Total Orders
+
+## SQL function can be used 
+Top 
+RANK()
+DENSE_RANK()
+ROW_NUMBER() etc
