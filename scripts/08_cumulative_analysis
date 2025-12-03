@@ -2,3 +2,18 @@
 
 Aggregating the data progressively over time.
 Helps to understand whether our business is growing or declining.
+∑ [cumulative Measure] By [Date Dimension]
+Running Total Sales By Year
+moving Average Cost By Month
+
+-- wrong concept
+    SELECT 
+    DATETRUNC(MONTH, order_date) AS order_date,
+    SUM(sales_amount) AS total_sales
+    --SUM(sales_amount) OVER(ORDER BY DATETRUNC(MONTH, order_date)) AS running_total
+    FROM gold.fact_sales
+    WHERE order_date IS NOT NULL
+    GROUP BY DATETRUNC(MONTH, order_date)
+    ORDER BY DATETRUNC(MONTH, order_date)
+
+Expplaination: we can not use directly WINDOWW function inside a single query, ned to use in outer query
