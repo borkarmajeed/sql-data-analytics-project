@@ -1,0 +1,10 @@
+## change over time analysis i.e. Trends over time
+Analyze how a measure evolves over time.
+Helps track trends and identify seasonality in your data.
+e.g.
+∑ [Measure] By [Date Dimension]
+Total Sales By Year
+Average Cost By Month
+
+for this analysis usually we explore facts tables
+here analysing sales over time performance
