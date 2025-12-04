@@ -1,0 +1,14 @@
+## performance analysis
+comparing the current value to a target value
+Helps measure success and compare performance
+e.g. difference between current and target measure
+current[measure] - target[measure]
+current sales - average sales
+current sales - previous year sales
+current sales - lowest sales
+
+
+SQL Task
+Analyze the yearly performance of products
+by comparing each product's sales to both
+its average sales performance and the previous year's sales.
